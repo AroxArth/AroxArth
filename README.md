@@ -1,6 +1,6 @@
 ### Hi there 🦦💫 I'm [AroxArth!](https://github.com/AroxArth/)
 
-<img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJjdmRhMXdseWVsM2ZlODdndjB2bHB6cjlzNzRoYjN6N3kyYTBuciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xYiHSDWxIg9fq/giphy.gif"/>
+<img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWhlZzZ2MXo3eXFpdGdpaGJxMmJsZGpzZDVwcnFiaGtobnZoNmcyZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SVCSsoKU5v6ZJLk07n/giphy.gif"/>
 
 ## I'm a Software Developer at LCT Global
 
