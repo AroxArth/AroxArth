@@ -2,12 +2,33 @@
 
 <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWhlZzZ2MXo3eXFpdGdpaGJxMmJsZGpzZDVwcnFiaGtobnZoNmcyZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SVCSsoKU5v6ZJLk07n/giphy.gif"/>
 
-## I'm a Software Developer at LCT Global
+## Software Architect @ LCT Global
 
-- 💻 Full-Stack Developer focused on scalable web applications
-- 🧠 Working with modern architectures and AI-assisted development (SDD)
-- 🏗️ Building business systems and desktop apps (.NET MAUI, Next.js)
-- ⚡ Strong background in databases, APIs, and system integration
+**I design the system. The AI executes.**
+
+I lead AI agents to build production software with discipline — not vibe-coding,
+but real engineering: Spec-Driven Development (SDD), TDD, and custom tooling.
+
+- 🏗️ Clean / Hexagonal architecture — foundations before frameworks
+- 🧠 AI orchestration with SDD: explore → spec → design → tasks → apply → verify
+- 🔌 Custom MCP servers & Claude Code skills to direct agents with precision
+- 🧪 TDD as a non-negotiable — tests lead, code follows
+- ⚡ Business systems & desktop apps (.NET MAUI, Next.js) with solid DB/API integration
+
+---
+
+##### How I work
+
+```text
+  IDEA ──> SDD ──> the human leads, the agent executes
+            │
+            ├─ 🔍 Explore   understand before building
+            ├─ 📐 Spec      requirements & scenarios first
+            ├─ 🏛️ Design    architecture decisions, on purpose
+            ├─ ✅ Tasks     sliced, reviewable work units
+            ├─ 🧪 Apply     TDD — red, green, refactor
+            └─ 🔎 Verify    implementation matches the contract
+```
 
 ---
 ##### Languages I use
