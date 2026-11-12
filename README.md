@@ -55,3 +55,9 @@ Client work (private): a legacy VB6 health & pensions system rewritten from scra
 [![Stack](https://skillicons.dev/icons?i=ts,js,cs,kotlin,py,java,postgres&theme=dark)](https://skillicons.dev)
 <br/>
 [![Stack](https://skillicons.dev/icons?i=nextjs,react,nodejs,astro,dotnet,prisma,tailwind,threejs,docker,git,github,vscode&theme=dark)](https://skillicons.dev)
+
+**AI tooling**
+
+![Claude Code](https://img.shields.io/badge/Claude%20Code-111111?style=for-the-badge&logo=claude&logoColor=D97757)
+![MCP](https://img.shields.io/badge/MCP%20servers-111111?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
+![Engram](https://img.shields.io/badge/Engram%20memory-111111?style=for-the-badge)
