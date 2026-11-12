@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360" role="img" aria-label="Cómo trabajo: ODD · flujo por defecto en cada cambio. SDD · solo si hay ambigüedad real.">
+  <style>
+    :root { --ink:#1f2328; --muted:#59636e; --box:#ffffff; --line:#d0d7de; --accent:#d97706; --soft:rgba(217,119,6,.10); }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink:#e6edf3; --muted:#9198a1; --box:#161b22; --line:#3d444d; --accent:#f59e0b; --soft:rgba(245,158,11,.12); }
+    }
+    text { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: var(--ink); }
+    .title { font-size: 13px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; fill: var(--accent); }
+    .tag { font-size: 12px; fill: var(--muted); }
+    .box { fill: var(--box); stroke: var(--line); stroke-width: 1.5; }
+    .halo { fill: none; stroke: var(--accent); stroke-width: 2; opacity: 0; animation: halo 6s ease-in-out infinite; }
+    .num { font-size: 10px; font-weight: 700; fill: var(--accent); }
+    .label { font-size: 16px; font-weight: 700; }
+    .sub { font-size: 11px; fill: var(--muted); }
+    .flow { fill: none; stroke: var(--accent); stroke-width: 2; stroke-dasharray: 6 6; animation: dash 1s linear infinite; }
+    .flow.thin { stroke-width: 1.5; stroke-dasharray: 4 4; }
+    .loop { fill: none; stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 5 6; animation: dash 1.4s linear infinite; }
+    .sdd { fill: var(--soft); stroke: var(--accent); stroke-width: 1.5; stroke-dasharray: 8 5; animation: breathe 6s ease-in-out infinite; }
+    .pill { fill: var(--box); stroke: var(--line); stroke-width: 1.5; animation: pill 6s ease-in-out infinite; }
+    .pill-t { font-size: 12px; font-weight: 600; }
+    .note { font-size: 11px; font-style: italic; fill: var(--muted); }
+    .dot { fill: var(--accent); }
+    @keyframes dash { to { stroke-dashoffset: -12; } }
+    @keyframes halo { 0%, 100% { opacity: 0; } 8% { opacity: .9; } 20% { opacity: 0; } }
+    @keyframes pill { 0%, 100% { stroke: var(--line); } 6% { stroke: var(--accent); } 14% { stroke: var(--line); } }
+    @keyframes breathe { 0%, 100% { opacity: .75; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .halo { opacity: 0; } }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d97706"/></marker>
+    <marker id="arrow-sm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#d97706"/></marker>
+    <marker id="arrow-muted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8c959f"/></marker>
+  </defs>
+
+  <text class="title" x="16" y="26">Cómo trabajo</text>
+  <text class="tag" x="16" y="190">ODD · flujo por defecto en cada cambio</text>
+
+  <rect class="sdd" x="300" y="54" width="420" height="96" rx="14"/>
+  <text class="pill-t" x="316" y="80" style="fill:var(--accent)">SDD · solo si hay ambigüedad real</text>
+  <rect class="pill" style="animation-delay:2.4s" x="318" y="100" width="84" height="32" rx="16"/>
+      <text class="pill-t" x="360" y="120.5" text-anchor="middle">Propuesta</text><path class="flow thin" d="M402 116 H415" marker-end="url(#arrow-sm)"/><rect class="pill" style="animation-delay:2.75s" x="418" y="100" width="84" height="32" rx="16"/>
+      <text class="pill-t" x="460" y="120.5" text-anchor="middle">Spec</text><path class="flow thin" d="M502 116 H515" marker-end="url(#arrow-sm)"/><rect class="pill" style="animation-delay:3.0999999999999996s" x="518" y="100" width="84" height="32" rx="16"/>
+      <text class="pill-t" x="560" y="120.5" text-anchor="middle">Diseño</text><path class="flow thin" d="M602 116 H615" marker-end="url(#arrow-sm)"/><rect class="pill" style="animation-delay:3.4499999999999997s" x="618" y="100" width="84" height="32" rx="16"/>
+      <text class="pill-t" x="660" y="120.5" text-anchor="middle">Tareas</text>
+
+  <path class="flow" d="M394 206 V154" marker-end="url(#arrow)"/>
+  <text class="note" x="386" y="182" text-anchor="end">¿ambiguo?</text>
+  <path class="flow" d="M680 150 C680 180 594 176 594 202" marker-end="url(#arrow)"/>
+  <text class="note" x="690" y="182">vuelve a construir</text>
+
+  <path class="flow" d="M152 236 H182" marker-end="url(#arrow)"/><path class="flow" d="M322 236 H352" marker-end="url(#arrow)"/><path class="flow" d="M492 236 H522" marker-end="url(#arrow)"/><path class="flow" d="M662 236 H692" marker-end="url(#arrow)"/>
+  
+    <g class="node">
+      <rect class="halo" style="animation-delay:0s" x="12" y="202" width="144" height="68" rx="16"/>
+      <rect class="box" x="16" y="206" width="136" height="60" rx="12"/>
+      <text class="num" x="28" y="224">01</text>
+      <text class="label" x="84" y="240" text-anchor="middle">Explorar</text>
+      <text class="sub" x="84" y="257" text-anchor="middle">leer antes de proponer</text>
+    </g>
+    <g class="node">
+      <rect class="halo" style="animation-delay:1.2s" x="182" y="202" width="144" height="68" rx="16"/>
+      <rect class="box" x="186" y="206" width="136" height="60" rx="12"/>
+      <text class="num" x="198" y="224">02</text>
+      <text class="label" x="254" y="240" text-anchor="middle">Decidir</text>
+      <text class="sub" x="254" y="257" text-anchor="middle">una pregunta a la vez</text>
+    </g>
+    <g class="node">
+      <rect class="halo" style="animation-delay:2.4s" x="352" y="202" width="144" height="68" rx="16"/>
+      <rect class="box" x="356" y="206" width="136" height="60" rx="12"/>
+      <text class="num" x="368" y="224">03</text>
+      <text class="label" x="424" y="240" text-anchor="middle">Planificar</text>
+      <text class="sub" x="424" y="257" text-anchor="middle">tareas si es grande</text>
+    </g>
+    <g class="node">
+      <rect class="halo" style="animation-delay:3.5999999999999996s" x="522" y="202" width="144" height="68" rx="16"/>
+      <rect class="box" x="526" y="206" width="136" height="60" rx="12"/>
+      <text class="num" x="538" y="224">04</text>
+      <text class="label" x="594" y="240" text-anchor="middle">Construir</text>
+      <text class="sub" x="594" y="257" text-anchor="middle">TDD · tarea a tarea</text>
+    </g>
+    <g class="node">
+      <rect class="halo" style="animation-delay:4.8s" x="692" y="202" width="144" height="68" rx="16"/>
+      <rect class="box" x="696" y="206" width="136" height="60" rx="12"/>
+      <text class="num" x="708" y="224">05</text>
+      <text class="label" x="764" y="240" text-anchor="middle">Verificar</text>
+      <text class="sub" x="764" y="257" text-anchor="middle">checks + revisión</text>
+    </g>
+
+  <path class="loop" d="M764 266 C764 316 594 316 594 272" marker-end="url(#arrow-muted)"/>
+  <text class="note" x="679" y="314" text-anchor="middle">siguiente tarea</text>
+  <text class="tag" x="844" y="346" text-anchor="end">1 tarea = 1 commit revisable</text>
+
+  <circle class="dot" r="5">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M84 276 H764" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.9;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
