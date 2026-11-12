@@ -2,13 +2,13 @@
 
 [English](README.md) · **Español**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f59e0b,100:b45309&height=190&section=header&text=AroxArth&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Arquitecto%20de%20Software%20AI-Driven%20%C2%B7%20Full-Stack&descSize=18&descAlignY=58" alt="AroxArth"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1430,50:132a5e,100:1e40af&height=190&section=header&text=Jairo%20Aron%20Huam%C3%A1n%20Ayasta&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Arquitecto%20de%20Software%20AI-Driven%20%C2%B7%20Full-Stack&descSize=18&descAlignY=58" alt="Jairo Aron Huamán Ayasta"/>
 
-<a href="https://aroxarth.github.io"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=F59E0B&center=true&vCenter=true&width=640&lines=Yo+dise%C3%B1o+el+sistema.;La+IA+ejecuta.;Yo+verifico+todo.;Explorar+%E2%86%92+Decidir+%E2%86%92+Planificar+%E2%86%92+Construir+%E2%86%92+Verificar" alt="Yo diseño el sistema. La IA ejecuta. Yo verifico todo."/></a>
+<a href="https://aroxarth.github.io"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=60A5FA&center=true&vCenter=true&width=640&lines=Yo+dise%C3%B1o+el+sistema.;La+IA+ejecuta.;Yo+verifico+todo.;Explorar+%E2%86%92+Decidir+%E2%86%92+Planificar+%E2%86%92+Construir+%E2%86%92+Verificar" alt="Yo diseño el sistema. La IA ejecuta. Yo verifico todo."/></a>
 
 [![Portafolio](https://img.shields.io/badge/Portafolio-aroxarth.github.io-111111?style=for-the-badge&logo=astro&logoColor=FF5D01)](https://aroxarth.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-AroxArth-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AroxArth)
-![Ubicación](https://img.shields.io/badge/Lima-Per%C3%BA-111111?style=for-the-badge&logo=googlemaps&logoColor=F59E0B)
+![Ubicación](https://img.shields.io/badge/Lima-Per%C3%BA-111111?style=for-the-badge&logo=googlemaps&logoColor=60A5FA)
 
 </div>
 
@@ -71,4 +71,4 @@ Más detalles en el [portafolio](https://aroxarth.github.io).
   <img src="https://img.shields.io/badge/Engram%20memory-111111?style=for-the-badge" alt="Memoria Engram"/>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:b45309,100:f59e0b&height=110&section=footer" alt=""/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e40af,50:132a5e,100:0b1430&height=110&section=footer" alt=""/>

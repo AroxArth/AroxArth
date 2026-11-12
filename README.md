@@ -2,13 +2,13 @@
 
 **English** · [Español](README.es.md)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f59e0b,100:b45309&height=190&section=header&text=AroxArth&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI-Driven%20Software%20Architect%20%C2%B7%20Full-Stack%20Developer&descSize=18&descAlignY=58" alt="AroxArth"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1430,50:132a5e,100:1e40af&height=190&section=header&text=Jairo%20Aron%20Huam%C3%A1n%20Ayasta&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI-Driven%20Software%20Architect%20%C2%B7%20Full-Stack%20Developer&descSize=18&descAlignY=58" alt="Jairo Aron Huamán Ayasta"/>
 
-<a href="https://aroxarth.github.io"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=F59E0B&center=true&vCenter=true&width=640&lines=I+design+the+system.;The+AI+executes.;I+verify+everything.;Explore+%E2%86%92+Decide+%E2%86%92+Plan+%E2%86%92+Build+%E2%86%92+Verify" alt="I design the system. The AI executes. I verify everything."/></a>
+<a href="https://aroxarth.github.io"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=60A5FA&center=true&vCenter=true&width=640&lines=I+design+the+system.;The+AI+executes.;I+verify+everything.;Explore+%E2%86%92+Decide+%E2%86%92+Plan+%E2%86%92+Build+%E2%86%92+Verify" alt="I design the system. The AI executes. I verify everything."/></a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-aroxarth.github.io-111111?style=for-the-badge&logo=astro&logoColor=FF5D01)](https://aroxarth.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-AroxArth-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AroxArth)
-![Location](https://img.shields.io/badge/Lima-Peru-111111?style=for-the-badge&logo=googlemaps&logoColor=F59E0B)
+![Location](https://img.shields.io/badge/Lima-Peru-111111?style=for-the-badge&logo=googlemaps&logoColor=60A5FA)
 
 </div>
 
@@ -71,4 +71,4 @@ Details on the [portfolio](https://aroxarth.github.io).
   <img src="https://img.shields.io/badge/Engram%20memory-111111?style=for-the-badge" alt="Engram memory"/>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:b45309,100:f59e0b&height=110&section=footer" alt=""/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e40af,50:132a5e,100:0b1430&height=110&section=footer" alt=""/>
